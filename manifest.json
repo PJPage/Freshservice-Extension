@@ -3,7 +3,7 @@
 
   "name": "Freshservice Ticket Helper",
   "description": "This extension helps technicians use the Freshservice.com web application.",
-  "version": "1.0",
+  "version": "1.1",
   
   "content_scripts": 
   [
@@ -19,7 +19,8 @@
       ],
       "matches": 
       [
-        "*://msoe.freshservice.com/helpdesk/*"
+        "*://*freshservice.com/helpdesk/*"
+        "*://helpdesk.msoe.edu/*"
       ]
     }
   ],
